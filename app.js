@@ -1,3 +1,4 @@
+var port = process.env.PORT || 8080;
 const express = require("express");
 const request = require("request");
 const bodyParser = require("body-parser");
@@ -11,7 +12,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.raw());
 app.use(cors());
 
-var port = process.env.PORT || 8080;
 
 // set the view engine to ejs
 app.set("view engine", "ejs");
