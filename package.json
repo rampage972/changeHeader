@@ -3,7 +3,7 @@
   "description": "Our sample Node to Heroku app",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
